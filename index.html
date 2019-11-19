@@ -5,11 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>skWeather</title>
+    <link rel="stylesheet" href="style\style.css">
 </head>
 <body>
+    <header>
+        <h1>City
+            <input type="text" id="askLocation">
+            <input type="text" id="result" disabled>
+        </h1>
+    </header>
     
-    <input type="text" id="askLocation">
-
+<main id="mainDays">
+        <div class="empty">empty1</div>
+    <div id="dayOne">
+        <!-- document fragment: clone maken v één dag-->
+        <p id="icoon"></p>
+        <p id="mainTemp"></p>
+        <p id="humidity"></p>
+        <p id="precipitation"></p>
+    </div>
+    
+    <div id="dayTwo"></div>
+    <div id="dayThree"></div>
+    <div id="dayFour"></div>
+    <div id="dayFive"></div>
+    <div class="empty">empty2</div>
+</main>
 
     <script src="/js/script.js"></script>
 </body>

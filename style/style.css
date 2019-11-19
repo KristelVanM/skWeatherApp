@@ -1,0 +1,12 @@
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: purple;
+    background-color: rgb(136, 212, 231);
+}
+#mainDays {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
